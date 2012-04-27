@@ -1,0 +1,152 @@
+/*
+Theme Name: garden
+Author URI: http://oldsummer.com/
+Description: garden wordpress theme, simple
+Author: Shamrocker
+Version: 1.0
+License: GNU/GPL Version 2 or later. http://www.gnu.org/licenses/gpl.html
+Tags: geek
+Copyright: (c) 2012 
+*/
+body {
+    background: none repeat scroll 0 0 #E9EAEC;
+    color: #666666;
+    font: 14px Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 10px 0;
+}
+a {
+	color:#000000;
+	text-decoration:none;
+}
+a img {
+	vertical-align:middle;
+	border: medium none;
+}
+ol, ul {
+    list-style: none outside none;
+}
+
+#header {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #111111;
+    line-height: 190%;
+    margin: 25px auto;
+    padding:5px 20px;
+    width: 700px;
+}
+
+#header h1 {
+	font-weight: normal;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 46px;
+    
+    padding: 0;
+    position: relative;
+    vertical-align: middle;
+}
+
+div#wrapper {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #111111;
+    line-height: 190%;
+    margin: 0 auto;
+    padding: 20px;
+    width: 700px;
+}
+
+#main .posts {
+    padding: 0;
+}
+ul.posts li {
+    font-size: 14px;
+    list-style: none outside none;
+    margin: 4px 0 0;
+}
+.date {
+    color: #999999;
+    float: right;
+    font-size: 12px;
+    margin: 0;
+    padding: 0 5px;
+}
+ul.posts a {
+	font-size: 14px;
+    font-weight: normal;
+    padding: 5px;
+}
+.posts li a:hover {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border-radius: 5px 5px 5px 5px;
+}
+.entry a {
+	color:#1574FF;
+}
+.entry a:hover {
+	color:#FFFFFF;
+	background-color: #1574FF;
+}
+
+pre {
+    background-clip: padding-box;
+    background-color: #444444;
+    background-image: none;
+    color: #FFFFFF;
+    filter: none;
+    padding: 10px;
+    position: relative;
+    text-shadow: none;
+    font: 12px "Lucida Console",Monaco,Courier,"Courier New",monospace;
+}
+
+.tip {
+	background: none repeat scroll 0 0 #FFFFE0;
+    border: 1px solid #E6DB55;
+    color: #777777;
+    font-size: 12px;
+    line-height: 160%;
+    padding: 10px;
+}
+
+.time-line {
+	background: none repeat scroll 0 0 #111111;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 160%;
+    padding: 10px 40px;
+    font-weight: bold;
+    margin: 0 0 0 -40px;
+    width: 700px;
+}
+.point {
+	border: 1px solid #ff0000;
+    color: #ff0000;
+    font-size: 12px;
+    line-height: 160%;
+    padding: 10px;
+}
+#entry-author-info {
+    border-top: 4px solid #000000;
+    clear: both;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 24px 0;
+    overflow: hidden;
+    padding: 18px 20px;
+}
+#entry-author-info #author-avatar {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E7E7E7;
+    float: left;
+    height: 60px;
+    margin: 0 -104px 0 0;
+    padding: 11px;
+}
+#entry-author-info #author-description {
+    float: left;
+    margin: 0 0 0 104px;
+}
+blockquote {
+	font-style:italic;
+}
